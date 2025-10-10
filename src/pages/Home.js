@@ -38,7 +38,7 @@ export default function Home() {
 					{/* Left Column */}
 					<div className="md:w-1/2 mb-10 md:mb-0 text-center md:text-left">
 						<h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-textDark dark:text-gray-100">
-							Hey there I am Vamika Kambey
+							Hey there I am Varnika Kambey
 							
 						</h1>
 						<p className="text-gray-600 dark:text-gray-300 text-base sm:text-lg mb-4">
@@ -74,7 +74,7 @@ export default function Home() {
 					<div className="md:w-1/2 relative">
 						<div className="relative flex justify-center py-4 md:py-8">
 							<img
-								src="/images/varnika-profile.jpg"
+								src="images/varnika-profile.jpg"
 								alt="Varnika Kambley"
 								className="mx-auto rounded-full border-4 border-teal-400 shadow-lg object-cover w-44 h-44 sm:w-48 sm:h-48 md:w-56 md:h-56"
 							/>
