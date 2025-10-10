@@ -52,6 +52,21 @@ export default function About() {
   return (
     <section className="bg-white dark:bg-gray-900 py-20" id="about">
       <div className="container mx-auto px-4 max-w-6xl">
+        {/* Skills Categories */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          {skillCategories.map((category, index) => (
+            <div key={index} className={`${category.color} p-6 rounded-lg`}>
+              <div className="text-4xl text-white mb-4">{category.icon}</div>
+              <h3 className="text-xl font-bold text-white mb-3">{category.title}</h3>
+              <ul className="text-white">
+                {category.skills.map((skill, idx) => (
+                  <li key={idx}>{skill}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+
         {/* About Text */}
         <h2 className="text-4xl font-bold text-textDark dark:text-gray-100 mb-2">About Me</h2>
         <p className="text-gray-600 dark:text-gray-300 mb-16 text-lg">
