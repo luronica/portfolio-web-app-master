@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLaptopCode, FaRobot, FaServer } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
-import profileImage from "../assets/varnika-profile.png";
+import profileImage from "../assets/varnika-profile.jpg";
 
 const skillCategories = [
 	{
