@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLaptopCode, FaRobot, FaServer } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
-import profileImage from "../assets/varnika-profile.jpg";
+import profileImage from "../assets/varnika-profile.png";
 
 const skillCategories = [
 	{
@@ -56,7 +56,7 @@ export default function Home() {
 						<div className="flex items-center justify-center md:justify-start space-x-6 md:space-x-10">
 							<div>
 								<h2 className="text-3xl font-bold text-textDark">
-									{new Date().getFullYear() - 2020}+
+									2+
 								</h2>
 								<p className="text-gray-600 text-sm sm:text-base">
 									Years Experience
