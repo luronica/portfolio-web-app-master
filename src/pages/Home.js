@@ -115,47 +115,7 @@ export default function Home() {
 				</div>
 			</div>
 
-			{/* Experience Section */}
-			<div className="container mx-auto px-4 mt-12 mb-20">
-				<h2 className="text-2xl md:text-3xl font-bold text-textDark dark:text-gray-100 mb-6 text-center">
-					Experience
-				</h2>
-				<div className="flex flex-col md:flex-row justify-center gap-8">
-					{/* Experience Card 1 */}
-					<div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 flex-1 border-t-4 border-teal-400">
-						<h3 className="text-lg font-bold text-teal-600 mb-1">
-							AI Developer
-						</h3>
-						<p className="text-gray-700 dark:text-gray-200 font-medium mb-1">
-							Innovative AI Solutions Pvt Ltd
-						</p>
-						<p className="text-gray-500 dark:text-gray-400 text-sm mb-2">
-							2022 - Present
-						</p>
-						<ul className="list-disc ml-5 mt-2 text-gray-700 dark:text-gray-200 text-sm space-y-1">
-							<li>Developed AI-powered web applications</li>
-							<li>Led a team of 5 engineers</li>
-						</ul>
-					</div>
 
-					{/* Experience Card 2 */}
-					<div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 flex-1 border-t-4 border-orange-400">
-						<h3 className="text-lg font-bold text-orange-500 mb-1">
-							Speaker & Mentor
-						</h3>
-						<p className="text-gray-700 dark:text-gray-200 font-medium mb-1">
-							Tech Conferences & Workshops
-						</p>
-						<p className="text-gray-500 dark:text-gray-400 text-sm mb-2">
-							2020 - Present
-						</p>
-						<ul className="list-disc ml-5 mt-2 text-gray-700 dark:text-gray-200 text-sm space-y-1">
-							<li>Delivered 20+ sessions on AI, React, and Innovation</li>
-							<li>Mentored 100+ students</li>
-						</ul>
-					</div>
-				</div>
-			</div>
 		</section>
 	);
 }
