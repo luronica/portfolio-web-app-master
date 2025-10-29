@@ -5,27 +5,27 @@ import profileImage from "../assets/varnika-profile.png";
 
 const skillCategories = [
 	{
-		title: "AI & ML Expertise",
-		icon: <FaRobot />,
-		skills: ["LLMs", "RAG", "ChatBots", "NLP", "TensorFlow", "PyTorch"],
+		title: "Academic Excellence",
+		icon: <FaLaptopCode />,
+		skills: ["CGPA: 9.605", "Sem 1: 9.1", "Sem 2: 9.82", "Sem 3: 9.95", "Sem 4: 9.55"],
 		color: "bg-teal-500",
 	},
 	{
-		title: "Development",
-		icon: <FaLaptopCode />,
-		skills: ["Python", "FastAPI", "React", "Vue", "Vector DBs"],
+		title: "Leadership Roles",
+		icon: <BsPeople />,
+		skills: ["TSDW Junior Council Member", "Cultural Head", "Class Representative", "Exhibition Lead"],
 		color: "bg-orange-400",
 	},
 	{
-		title: "DevOps & Cloud",
-		icon: <FaServer />,
-		skills: ["Docker", "Kubernetes", "AWS", "CI/CD", "Linux"],
+		title: "Major Achievements",
+		icon: <FaRobot />,
+		skills: ["NEP SAARTHI 2025-26", "Best Paper Award", "HerSpark Winner", "DIPEX 2025 Finalist"],
 		color: "bg-yellow-400",
 	},
 	{
-		title: "Leadership",
-		icon: <BsPeople />,
-		skills: ["Tech Speaking", "Project Management", "Community Building"],
+		title: "Awards & Recognition",
+		icon: <FaServer />,
+		skills: ["Best Academic Performance", "Best Orator in Mumbai", "Ms. SVIS 2023", "Multiple Gold Medals"],
 		color: "bg-purple-400",
 	},
 ];
@@ -63,9 +63,9 @@ export default function Home() {
 								</p>
 							</div>
 							<div>
-								<h2 className="text-3xl font-bold text-textDark">20+</h2>
+								<h2 className="text-3xl font-bold text-textDark">9.6</h2>
 								<p className="text-gray-600 text-sm sm:text-base">
-									Speaking Sessions
+									CGPA
 								</p>
 							</div>
 						</div>

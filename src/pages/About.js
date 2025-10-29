@@ -70,13 +70,13 @@ export default function About() {
         {/* About Text */}
         <h2 className="text-4xl font-bold text-textDark dark:text-gray-100 mb-2">About Me</h2>
         <p className="text-gray-600 dark:text-gray-300 mb-16 text-lg">
-          is an AI/ML Consultant with over 5 years of experience
-          specializing in Generative AI, Conversational AI, and LLMs. He has developed
-          scalable chatbots, RAG pipelines, web applications, and AI-powered widgets,
-          leveraging advanced tools like LangChain, Streamlit, and Kubernetes. With 20+
-          speaking sessions at global conferences, Dishant is known for simplifying complex
-          AI concepts, driving innovation, and mentoring aspiring technologists to create
-          impactful AI solutions.
+          is a distinguished student leader and academic achiever with a remarkable track record. Currently serving as a NEP SAARTHI 2025-26 Student Ambassador for the Ministry of Education, Government of India, she combines academic excellence with significant leadership roles and innovative projects.
+
+          Her academic journey is marked by exceptional performance, maintaining a stellar CGPA of 9.605. Beyond academics, she has demonstrated technical innovation through projects like the Women's safety bracelet (HerSpark Winner) and a Dual-axis solar tracker (DIPEX 2025 Finalist).
+
+          As a natural leader, she has held various positions including Junior Council Member at TSDW, TCET, and has led large-scale initiatives such as the Ingenious India Exhibition, managing over 100 students. Her achievements extend to public speaking, winning the Best Orator in Mumbai (Female) award from Ramkrishna Mission, and earning multiple academic gold medals in national competitions.
+
+          Varnika's diverse talents are further evidenced by her participation in cultural activities, including the Sojourn '25 Cultural Fest, and her crowning as Ms. SVIS 2023. Her commitment to excellence has been recognized with numerous accolades, including participation in the Guinness World Art Contest and consistent academic honors.
         </p>
 
         {/* Contact Form */}
