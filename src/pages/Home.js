@@ -1,7 +1,6 @@
 import React from "react";
 import { FaLaptopCode, FaRobot, FaServer } from "react-icons/fa";
 import { BsPeople } from "react-icons/bs";
-import profileImage from "../assets/varnika-profile.jpg";
 
 const skillCategories = [
 	{
@@ -75,7 +74,7 @@ export default function Home() {
 					<div className="md:w-1/2 relative">
 						<div className="relative flex justify-center py-4 md:py-8">
 							<img
-								src={profileImage}
+								src="/images/profile.jpg"
 								alt="Varnika Kambley"
 								className="mx-auto rounded-full border-4 border-teal-400 shadow-lg object-cover w-44 h-44 sm:w-48 sm:h-48 md:w-56 md:h-56"
 							/>
